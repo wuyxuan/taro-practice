@@ -1,0 +1,19 @@
+.tab{
+    .tab-box{
+        .noSelect{
+            flex-grow: 1;
+            text-align: center;
+            font-size: 32px;
+            color: #6190E8;
+            border: 1px solid #6190E8;
+        }
+        .selected{
+            flex-grow: 1;
+            text-align: center;
+            font-size: 32px;
+            color: #ffffff;
+            background-color: #6190E8;
+            border: 1px solid #6190E8;
+        }
+    }
+}

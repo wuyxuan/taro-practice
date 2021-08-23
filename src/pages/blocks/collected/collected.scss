@@ -1,0 +1,21 @@
+.collected{
+    .tools{
+        flex-grow: 1;
+        align-self: center;
+        justify-content: center;
+        padding: 15px 0;
+        margin: 15px 0;
+        background-color: #6190E8;
+        .img{
+           display: block; 
+           width: 60px;
+           height: 60px;
+           margin-right: 10px;
+        }
+        .text{
+            display: block;
+            line-height: 60px;
+            color: #ffffff;
+        }
+    }
+}

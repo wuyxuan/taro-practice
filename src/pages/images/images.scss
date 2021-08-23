@@ -1,0 +1,19 @@
+.images{
+    margin-top: 85px;
+    .content{
+        .img-list-box{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .img-box{
+                padding: 8px;
+                margin-bottom: 30px;
+                span{
+                    display: block;
+                    font-size: 28px;
+                    color: #999999;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

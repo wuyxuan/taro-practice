@@ -1,0 +1,35 @@
+.article {
+  .content {
+    margin-top: 85px;
+    .article-content {
+      .article-content-item {
+        .item-img {
+          display: block;
+          width: 150px;
+          height: 150px;
+        }
+
+        .item-content {
+          flex-grow: 1;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+
+          .item-title {
+            height: 75px;
+            display: flex;
+            align-items: flex-start;
+          }
+
+          .item-time {
+            height: 75px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+  }
+}

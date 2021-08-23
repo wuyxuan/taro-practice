@@ -1,0 +1,139 @@
+// 背景色
+page,
+body {
+  background-color: #F4F6F9;
+}
+
+// flex 相关
+.d-flex {
+  display: flex;
+}
+
+.algin-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+// 占满剩余
+.flex-grow {
+  flex-grow: 1;
+}
+
+// 颜色相关设置
+// 主体背景色
+.main-back-color {
+  background-color: #F4F6F9;
+}
+
+// 白色背景
+.white-back-color {
+  background-color: #ffffff;
+}
+
+// 左右两侧间隙
+.padding-lr {
+  padding: 0 32px;
+}
+
+.margin-lr {
+  margin: 0 32px;
+}
+
+.padding-l {
+  padding-left: 32px;
+}
+
+.padding-r {
+  padding-right: 32px;
+}
+
+.margin-l {
+  margin-left: 32px;
+}
+
+.margin-r {
+  margin-right: 32px;
+}
+
+// 上下间隙
+.padding-tb {
+  padding: 32px 0;
+}
+
+.margin-tb {
+  margin: 32px 0;
+}
+
+.padding-t {
+  padding-top: 32px;
+}
+
+.padding-b {
+  padding-bottom: 32px;
+}
+
+.margin-t {
+  margin-top: 32px;
+}
+
+.margin-b {
+  margin-bottom: 32px;
+}
+
+// 全部的间隙
+.padding-all {
+  padding: 32px;
+}
+
+.margin-all {
+  margin: 32px;
+}
+
+// 字体默认大小
+.font-default {
+  font-size: 32px;
+  color: #7D7D88;
+}
+
+// 文字对齐
+.text-center{
+  text-align: center;
+}
+
+// 边框线
+.border-all{
+  border: 1px solid #bbbbbb;
+}
+
+.border-l{
+  border-left: 1px solid #bbbbbb;
+}
+
+.border-r{
+  border-right: 1px solid #bbbbbb;
+}
+
+.border-t{
+  border-top: 1px solid #bbbbbb;
+}
+
+.border-b{
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.border-lr{
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+}
+
+.border-tb{
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+}

@@ -1,0 +1,25 @@
+.mine{
+    margin-top: 85px;
+    .avatar{
+        .nick-name{
+
+        }
+        .wei-code{
+            width: 150px;
+            padding: 0 25px;
+            text-align: end;
+            .wei-code-img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    .copyright{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        translate: -50% 0;
+        font-size: 24px;
+        color: #cccccc;
+    }
+}

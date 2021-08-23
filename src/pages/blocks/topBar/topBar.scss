@@ -1,0 +1,48 @@
+// @import "../../../app.scss";
+.top-title {
+  background-color: #6190E8;
+  color: #ffffff;
+  padding: 15px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+
+  .arrow-left {
+    width: 0;
+    height: 0;
+    border: 30px solid;
+    border-color: #ffffff transparent transparent transparent;
+    position: relative;
+    transform: rotate(90deg);
+    margin-left: -20px;
+  }
+
+  .arrow-left::after {
+    content: '';
+    position: absolute;
+    top: -55px;
+    left: -50px;
+    border: 50px solid;
+    border-color: #6190E8 transparent transparent transparent;
+  }
+
+  .top-tips {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 25px;
+    font-size: 32px;
+  }
+
+  .top-icon {
+    width: 70px;
+    height: 65px;
+    margin-right: 20px;
+
+    .icon-img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

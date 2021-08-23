@@ -1,0 +1,33 @@
+.at-textarea{
+    padding: 15px 32px;
+}
+.at-textarea__textarea {
+  height: 400px !important;
+}
+
+.at-textarea {
+  border: none;
+  border-radius: 0;
+}
+
+.at-input {
+  margin-left: 0;
+  padding-left: 32px;
+}
+
+.add {
+  .content {
+    margin-top: 95px;
+    font-size: 32px;
+    .tips {
+      height: 85px;
+      line-height: 85px;
+      padding: 10px 32px;
+      color: #6190E8;
+      border-bottom: 1px solid rgba($color: #6190E8, $alpha: 0.2);
+    }
+    .submit{
+        margin-top: 64px;
+    }
+  }
+}
